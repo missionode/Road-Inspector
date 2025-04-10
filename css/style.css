@@ -44,7 +44,7 @@ button:hover, .upload-label:hover {
 
 @media (max-width: 600px) {
   #controls {
-    width: 30%;
+    width: 50%;
     right: 10px;
     top: auto;
     bottom: 10px;
