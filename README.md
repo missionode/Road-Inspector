@@ -45,5 +45,24 @@ An interactive web-based tool that uses simulated accelerometer data and real-ti
 
 ---
 
-## 📂 Project Structure
+- The app uses **simulated accelerometer values** as real sensor access via JS is limited.
+- Browser must support Geolocation API.
+- Works best in mobile devices for live tracking.
+
+---
+
+## 📍 Demo Use Case
+
+Urban planners or municipal bodies can use this app to:
+- Identify pothole-prone or poorly maintained roads.
+- Crowdsource vibration data for road audits.
+- Combine GPS and vibration data for smart transport planning.
+
+---
+
+## 📜 License
+
+MIT License – Free to use and modify.
+
+---
 
