@@ -9,7 +9,7 @@ body, html {
   width: 100%;
 }
 
-.controls {
+#controls {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -41,7 +41,7 @@ button:hover, .upload-label:hover {
 }
 
 @media (max-width: 600px) {
-  .controls {
+  #controls {
     width: 90%;
     left: 5%;
     top: auto;
