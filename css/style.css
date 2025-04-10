@@ -2,6 +2,7 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
+  psoition: relative;
 }
 
 #map {
@@ -11,8 +12,8 @@ body, html {
 
 #controls {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 10px;
+  left: 10px;
   z-index: 1000;
   background: rgba(255, 255, 255, 0.8);
   padding: 10px;
