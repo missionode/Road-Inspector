@@ -84,7 +84,7 @@ let watchId = null;
 
 startStopBtn.addEventListener('click', () => {
   collecting = !collecting;
-  startStopBtn.textContent = collecting ? 'Stop Collection' : 'Start Collection';
+  startStopBtn.textContent = collecting ? 'Stop Inspection' : 'Start Inspection';
   
   if (collecting) {
     watchId = navigator.geolocation.watchPosition(position => {
