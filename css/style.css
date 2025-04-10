@@ -44,8 +44,8 @@ button:hover, .upload-label:hover {
 
 @media (max-width: 600px) {
   #controls {
-    width: 90%;
-    left: 5%;
+    width: 30%;
+    right: 10px;
     top: auto;
     bottom: 10px;
     flex-direction: column;
