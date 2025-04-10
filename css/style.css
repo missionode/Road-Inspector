@@ -30,6 +30,7 @@ button, .upload-label {
    color: white;
    border-radius: 4px;
    cursor: pointer;
+  font-family: system-ui;
 }
 
 button:hover, .upload-label:hover {
