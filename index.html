@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Road Condition Mapper</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+</head>
+<body>
+  <div id="controls">
+    <button id="startStopBtn">Start Collection</button>
+    <button id="downloadBtn">Download Database</button>
+    <label for="uploadInput" class="upload-label">Upload Database</label>
+    <input type="file" id="uploadInput" accept="application/json" />
+  </div>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
